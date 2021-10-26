@@ -1,4 +1,44 @@
-.App {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(110, 50, 8);
+}
+
+/* .App {
+  text-align: center;
+} */
+
+.containerApp {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  padding: 25px;
+
+  background-color: rgb(230, 144, 69);
+
+  border: 1px solid rgb(228, 219, 219);
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px black;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +75,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

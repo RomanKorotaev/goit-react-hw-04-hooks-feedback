@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import AppHook2 from './AppHook2';
+
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <AppHook2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
