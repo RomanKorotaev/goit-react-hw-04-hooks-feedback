@@ -8,6 +8,9 @@ import Notification from './components/Notification'
 
 
 export default function  AppHook2 () {
+
+  console.log ('AppHook2')
+
     const [good, setGood] = useState(0);
     const [neutral, setNeutral] = useState(0);
     const [bad, setBad] = useState(0);
